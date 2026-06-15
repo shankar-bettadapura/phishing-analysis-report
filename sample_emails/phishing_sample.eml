@@ -1,0 +1,87 @@
+Return-Path: <security-alert@paypa1-verify.ru>
+Received: from mail-spoof.paypa1-verify.ru (185.220.101.45) by mx.victim-corp.com
+	with ESMTP id x7si1234567; Mon, 02 Jun 2026 09:14:22 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by paypa1-verify.ru;
+	Mon, 02 Jun 2026 16:14:18 +0000
+Authentication-Results: mx.victim-corp.com;
+	spf=fail smtp.mailfrom=paypa1-verify.ru;
+	dkim=fail header.i=@paypa1-verify.ru;
+	dmarc=fail action=none header.from=paypal.com
+Received-SPF: fail (mx.victim-corp.com: domain of paypa1-verify.ru does not designate 185.220.101.45 as permitted sender)
+X-Originating-IP: 185.220.101.45
+X-Mailer: Microsoft Outlook 16.0
+MIME-Version: 1.0
+From: PayPal Security <security@paypal.com>
+Reply-To: noreply-support@paypa1-verify.ru
+To: victim@victim-corp.com
+Subject: Urgent: Your PayPal account has been limited
+Date: Mon, 02 Jun 2026 09:14:00 -0700
+Message-ID: <20260602091400.abc123xyz@paypa1-verify.ru>
+Content-Type: multipart/mixed; boundary="===============BOUNDARY_PHISH=="
+
+--===============BOUNDARY_PHISH==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear PayPal Customer,
+
+We have detected unusual activity on your account. Your account has been
+limited until you verify your identity.
+
+To restore your account access, please verify your information within 24 hours:
+
+http://paypa1-verify.ru/secure/account-verify?token=eyJhbGciOiJIUzI1NiJ9
+
+If you do not verify, your account will be permanently suspended.
+
+Alternatively, you can visit our secure portal:
+https://185.220.101.45/restore/paypal-login.php
+
+If you believe this was sent in error, contact us at:
+support@paypa1-verify.ru
+
+Reference document checksum: a3f4b2c1d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5
+
+PayPal Security Team
+--===============BOUNDARY_PHISH==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><title>PayPal Security Alert</title></head>
+<body style="font-family:Arial,sans-serif;background:#f7f7f7">
+<div style="max-width:600px;margin:0 auto;background:#fff;padding:24px">
+  <img src="http://cdn.paypa1-verify.ru/img/paypal-logo.png" alt="PayPal" />
+  <h2 style="color:#003087">Your account has been limited</h2>
+  <p>We detected unusual sign-in activity from IP address 91.108.4.180.
+     To protect your account, we have temporarily limited it.</p>
+  <p><strong>Please verify your account immediately:</strong></p>
+  <a href="http://paypa1-verify.ru/secure/account-verify?token=eyJhbGciOiJIUzI1NiJ9"
+     style="background:#003087;color:#fff;padding:12px 24px;text-decoration:none;border-radius:4px">
+     Verify My Account
+  </a>
+  <p style="margin-top:20px">You can also visit:
+     <a href="https://paypa1-verify.ru/restore">https://paypa1-verify.ru/restore</a>
+  </p>
+  <p style="font-size:11px;color:#666">
+     This email was sent from security@paypal.com. If you did not request this,
+     please contact support@paypa1-verify.ru or visit
+     http://account-verify-secure.tk/help
+  </p>
+</div>
+</body>
+</html>
+--===============BOUNDARY_PHISH==
+Content-Type: application/pdf; name="PayPal_Account_Verification.pdf"
+Content-Disposition: attachment; filename="PayPal_Account_Verification.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5k
+b2JqCjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4K
+ZW5kb2JqCjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3gg
+WzAgMCA2MTIgNzkyXSA+PgplbmRvYmoKeHJlZgowIDQKMDAwMDAwMDAwMCA2NTUzNSBmIAow
+MDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAw
+MCBuIAp0cmFpbGVyCjw8IC9TaXplIDQgL1Jvb3QgMSAwIFIgPj4Kc3RhcnR4cmVmCjE5Mgol
+JUVPRgo=
+--===============BOUNDARY_PHISH==--
